@@ -1,0 +1,87 @@
+@media screen and ( min-width:480 px)
+{
+  /*****************************
+  Contact page
+  *****************************/
+  #primary
+  {
+    width:50%;
+    float: left;
+  }
+  #secondary
+  {
+    width:40%;
+    float:right;
+  }
+
+  #gallery li
+  {
+    width:28.3333%;
+  }
+
+  #gallery li:nth-child(4n)
+  {
+    clear: left;
+  }
+
+
+  /*****************************
+  About page
+  *****************************/
+
+  .profile-photo
+  {
+    float:left;
+    margin:0 5% 80px 0;
+  }
+}
+/*****************************
+Portfolio page (home page)
+to make 3 images side by side
+margin: 2.5*2= 5%
+3 images: 3*5=15%
+so 85/3=28.333333
+*****************************/
+
+
+
+/@media screen and (min-width: 660 px)
+{
+  /*****************************
+  About page
+  *****************************/
+
+  nav
+  {
+    background:none;
+    float:right;
+    font-size:1.25em;
+    margin-right: 5%;
+    text-align: right;
+    width:45%;
+  }
+
+  #logo
+  {
+    float:left;
+    margin-left:5%;
+    text-align:left;
+    width:45%;
+  }
+
+  h1
+  {
+    font-size:2.5em;
+  }
+  h2
+  {
+    font-size : 0.825em;
+    margin-bottom: 20px;
+  }
+
+  header
+  {
+    border-bottom:5px solid #599a68;
+    margin-bottom: 50px;
+  }
+}
