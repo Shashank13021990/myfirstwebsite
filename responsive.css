@@ -1,15 +1,38 @@
-@media screen and (min-width:480 px)
+@media screen and ( min-width:480 px)
 {
-  body
+  /*****************************
+  making responsive
+  *****************************/
+  #primary
   {
-    background:navy;
+    width:50%;
+    float: left;
   }
+  #secondary
+  {
+    width:50%;
+    float:right;
+  }
+}
+/*****************************
+Portfolio
+to make 3 images side by side
+margin: 2.5*2= 5%
+3 images: 3*5=15%
+so 85/3=28.333333
+*****************************/
+
+#gallery li
+{
+  width:28.3333%;
+}
+
+#gallery li:nth-child(4n)
+{
+  clear:left;
 }
 
 @media screen and (min-width: 660 px)
 {
-  body
-  {
-    background:darkgreen;
-  }
+
 }
